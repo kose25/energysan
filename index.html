@@ -18,64 +18,132 @@
     <title>EnergySan</title>
 </head>
 
-<body>
+<body class="special-color" style="padding-top: 76px;">
 
     <header>
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
-            <a class="navbar-brand" href="#"><strong>EnergySan</strong></a>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/energysan.png" height="50" alt="mdb logo">
+                <strong>EnergySan</strong>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#aboutus">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
+
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <!-- 21:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-21by9">
-                        
-                        <img class="d-block w-100 embed-responsive-item"
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt="First slide">
+                    <!--Mask-->
+                    <div class="view">
+                        <div class="embed-responsive embed-responsive-21by9 d-none d-lg-block">
+                            <img class="embed-responsive-item"
+                                src="images/science-in-hd-ZNS6rizp9RU-unsplash.jpg" alt="First slide">
+                        </div>
+                        <div class="embed-responsive embed-responsive-4by3 d-lg-none">
+                            <img class="embed-responsive-item"
+                                src="images/science-in-hd-ZNS6rizp9RU-unsplash.jpg" alt="First slide">
+                        </div>
+                        <div class="flex-center mask rgba-black-light white-text">
+                            <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
+                                <li>
+                                    <h1 class="font-weight-bold h1-responsive">ENERGY <span
+                                            class="" style="color: #ffd600;">SAN</span></h1>
+                                    <div class="flex-center">
+                                        <img src="images/energysan.png" alt="" class="img-fluid" width="100px">
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <p class="h2 font-weight-bold text-uppercase py-lg-4"> <em> <u style="text-decoration-thickness: 5px;text-decoration-style: solid;
+                                        text-decoration-color: #ffd600;">ENERGÍA SOLAR SANTANDER</u></em> </p>
+                                </li>                                
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!--/.Mask-->
+                </div>
+                <!--/.First slide-->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <div class="embed-responsive embed-responsive-21by9 d-none d-lg-block">
+                            <img class="embed-responsive-item"
+                                src="images/possessed-photography-DqpPwAC3QVY-unsplash.jpg" alt="First slide">
+                        </div>
+                        <div class="embed-responsive embed-responsive-4by3 d-lg-none">
+                            <img class="embed-responsive-item"
+                                src="images/possessed-photography-DqpPwAC3QVY-unsplash.jpg" alt="First slide">
+                        </div>
+                        <div class="mask mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Energia Limpia</h3>
+                        <p>Ayuda al medio ambiente</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-21by9">
-                        
-                        <img class="d-block w-100 embed-responsive-item"
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg" alt="Second slide">
+                    <!--Mask color-->
+                    <div class="view">
+                        <div class="embed-responsive embed-responsive-21by9 d-none d-lg-block">
+                            <img class="embed-responsive-item"
+                                src="images/matthew-henry-yETqkLnhsUI-unsplash.jpg" alt="First slide">
+                        </div>
+                        <div class="embed-responsive embed-responsive-4by3 d-lg-none">
+                            <img class="embed-responsive-item"
+                                src="images/matthew-henry-yETqkLnhsUI-unsplash.jpg" alt="First slide">
+                        </div>
+                        <div class="mask mask rgba-black-light"></div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-21by9">
-                        
-                        <img class="d-block w-100 embed-responsive-item"
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Ahorra Energia</h3>
+                        <p>Se dueño de tu propia energía</p>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+            <!--/.Controls-->
         </div>
+        <!--/.Carousel Wrapper-->
+
+
 
         <div class="view intro-2 d-none">
             <div class="full-bg-img">
@@ -93,24 +161,37 @@
         </div>
 
     </header>
-    <div class="container py-5">
+    <div class="container py-lg-5 py-3 text-white" id="aboutus">
         <div class="row wow fadeIn">
             <div class="col-md-12">
-                <h1 class="text-center mb-4">Quienes Somos</h1>
+                <h1 class="text-center mb-lg-4 font-weight-bold">Quienes Somos</h1>
 
-                <p align="justify">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-6">
+                        <div class="d-flex justify-content-center py-lg-4 pb-2 wow fadeIn" data-wow-delay="0.6s">
+                            <img src="images/energysan.png" class="img-fluid" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <p align="justify" class="wow fadeIn">Somos energía solar Santander: ENERGYSAN, un grupo de ingenieros en energía altamente
+                    calificados, con conciencia social y ecológica impulsados por poner al servicio de la comunidad el
+                    talento para implementar estos proyectos. <br>
+
+                    ENERGYSAN ofrece el servicio de autogeneración y sistemas autónomos de energía solar fotovoltaica
+                    para hogares y centros de consumo con o sin conexión al Sistema de Transmisión Nacional,
+                    construyendo instalaciones de calidad guiándose por la normativa vigente RETIE, NTC 2050, CREG.
+                    Nuestras instalaciones están diseñadas para tener una vida útil de 20 años, en los que nuestros
+                    clientes reducirán en gran medida su factura de energía, de manera que puedan recuperar la inversión
+                    en mínimo 2 años.
+                </p>
 
             </div>
         </div>
 
-        <div class="row">
+        <div class="row d-none">
             <div class="col-12 my-4 wow fadeIn">
                 <h1 class="text-center font-weight-bold">La Empresa</h1>
             </div>
@@ -189,74 +270,188 @@
 
         </div>
 
-        <div class="row">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row p-lg-5 pb-5 align-items-center" style="background: url('https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')no-repeat center center;
+        background-size: cover;">
+            <div class="col-12 my-4 wow fadeIn">
+                <h1 class="text-center font-weight-bold white-text">La Empresa</h1>
+            </div>
+
+            <div class="col-lg-6 mb-4 wow fadeInUp">
+                <div class="card z-depth-2" style="border-radius: 70px; opacity: 0.85;">
+                    <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title text-center">Mision:</h4>
+                        <!-- Text -->
+                        <p class="card-text">Energía solar de Santander ENERGYSAN, una empresa con el objetivo de poner
+                            al servicio de los clientes proyectos de generación de energía solar y reducir su consumo de
+                            energía mediante sistemas de gestión de está implementando la norma ISO 50001 con el fin de
+                            ayudar con el compromiso adquirido por Colombia en la cumbre de cambio climático de reducir
+                            sus emisiones de gases de efecto invernadero principales culpables del cambio climático.
+                            De este modo se genera conciencia de esta problemática, se toma acción sobre ella y se
+                            aporta al desarrollo económico-ambiental de la región de manera sostenible. <br>
+
+                            Nuestros servicios se enfocan en generación de energía solar fotovoltaica, solar térmica,
+                            sistemas de gestión de energía (certificado por ISO 50001) implementando los beneficios
+                            económicos que el gobierno brinda para estos proyectos. <br>
+
+
+                            ENERGYSAN es una empresa nacida en el Oriente colombiano, Santander y Norte de Santander.
+                            Somos un grupo de ingenieros en energía conscientes de la problemática medio ambiental
+                            impulsados por poner al servicio de la comunidad el talento para implementar estos proyectos
+                        </p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary d-none">Button</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp">
+                <div class="card z-depth-2" style="border-radius: 70px;opacity: 0.85;">
+                    <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title text-center">Vision:</h4>
+                        <!-- Text -->
+                        <p class="card-text">ENERGYSAN trabajara para tener una imagen de empresa con beneficio
+                            económico para el cliente, competitiva, comprometida con el medio ambiente e innovadora
+                            Nuestros planes se enfocan en crecer ampliando nuestros servicios y nuestros clientes,
+                            innovar en la implementación de proyectos de uso y generación de la energía usando y
+                            combinando tecnologías verdes.
+                        </p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary d-none">Button</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container text-white mb-4" id="servicios">
+
+
+
+
+        <div class="row align-items-center">
             <div class="col-12 my-4 wow fadeIn">
                 <h1 class="text-center font-weight-bold">Servicios</h1>
             </div>
             <div class="col-12 wow fadeIn">
-                <h2 class="text-center wow fadeIn">Servicio 1</h1>
+                <h2 class="text-center wow fadeIn">PLAN 1200W</h2>
             </div>
 
             <div class="col-lg-6 wow fadeInLeft">
-                <div class="embed-responsive embed-responsive-4by3">
+                <div class="embed-responsive embed-responsive-4by3 z-depth-2" style="border-radius: 60px">
                     <!-- Card image -->
-                    <img class="embed-responsive-item" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                    <img class="embed-responsive-item"
+                        src="https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1512&q=80"
                         alt="Servicio">
                 </div>
             </div>
             <div class="col-lg-6 align-self-center wow fadeInRight">
-                <h2 class="text-center my-4">
-                    Lo que necesitas
-                </h2>
+                <h3 class="text-center my-4">
+                    INSTALACIÓN FOTOVOLTAICA DE 1200 W A 220 V, ADAPTADA PARA LA VENTA DE ENERGÍA AHORRO ENERGÉTICO DE
+                    <b>125 KWH/MES</b>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo officiis, cumque similique
-                    laborum nam, voluptatum harum, repellat aliquid veniam odit asperiores natus magnam corporis ab
-                    deleniti expedita error quia consequatur.</p>
+                </h3>
+
+                <p class="text-center">INCLUYE:</p>
+                <ul>
+                    <li> MICRO INVERSOR ONGRID 1200 W</li>
+                    <li>4 PANELESSOLARES 285 W POLI CRISTALINOS</li>
+                    <li>MEDIDOR BIDIRECCIONAL BIFÁSICO</li>
+                    <li>SOPORTES</li>
+                    <li>SISTEMA DEPROTECCIONES PARA LA INSTALACIÓN Y
+                        SEGURIDAD</li>
+                    <li>CERTIFICADO DE LA NORMATIVA RETIE</li>
+                    <li>ACCESORIOS ELÉCTRICOS</li>
+                    <li>PROCESO DECONEXIÓN CON LA ELECTRIFICADORA PARA LA
+                        VENTA DE ENERGÍA</li>
+                    <li>GARANTÍA DE DOS AÑOS</li>
+                    <li>MANTENIMIENTO GRATUITO PARA EL PRIMER AÑO</li>
+                </ul>
+            </div>
+
+            <div class="col-12 mt-4 wow fadeIn">
+                <h2 class="text-center mt-4">PLAN 1500W</h2>
+            </div>
+
+            <div class="col-lg-6 wow fadeInLeft">
+                <div class="embed-responsive embed-responsive-4by3 z-depth-2" style="border-radius: 60px">
+                    <!-- Card image -->
+                    <img class="embed-responsive-item"
+                        src="https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1512&q=80"
+                        alt="Servicio">
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center wow fadeInRight">
+                <h3 class="text-center my-4">
+                    INSTALACIÓN FOTOVOLTAICA DE 1500 W A 220 V,
+                    ADAPTADA PARA LA VENTA DE ENERGÍA
+                    AHORRO ENERGÉTICO DE <b>170 KWH/MES</b>
+                </h3>
+
+                <p class="text-center">INCLUYE:</p>
+                <ul>
+                    <li>MICRO INVERSOR ONGRID 1500 W</li>
+                    <li>4 PANELESSOLARES 385 W POLI CRISTALINOS</li>
+                    <li>MEDIDOR BIDIRECCIONAL BIFÁSICO</li>
+                    <li>SOPORTES</li>
+                    <li>SISTEMA DEPROTECCIONES PARA LA INSTALACIÓN Y
+                        SEGURIDAD</li>
+                    <li>CERTIFICADO DE LA NORMATIVA RETIE</li>
+                    <li>ACCESORIOS ELÉCTRICOS</li>
+                    <li>PROCESO DECONEXIÓN CON LA ELECTRIFICADORA PARA LA
+                        VENTA DE ENERGÍA</li>
+                    <li>GARANTÍA DE DOS AÑOS</li>
+                    <li>MANTENIMIENTO GRATUITO PARA EL PRIMER AÑO</li>
+                </ul>
             </div>
             <div class="col-12 mt-4 wow fadeIn">
-                <h2 class="text-center mt-4">Servicio 2</h1>
+                <h2 class="text-center mt-4">PLAN 2000W</h2>
             </div>
-
             <div class="col-lg-6 wow fadeInLeft">
-                <div class="embed-responsive embed-responsive-4by3">
+                <div class="embed-responsive embed-responsive-4by3 z-depth-2" style="border-radius: 60px">
                     <!-- Card image -->
-                    <img class="embed-responsive-item" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                    <img class="embed-responsive-item"
+                        src="https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1512&q=80"
                         alt="Servicio">
                 </div>
             </div>
             <div class="col-lg-6 align-self-center wow fadeInRight">
-                <h2 class="text-center my-4">
-                    Lo que necesitas
-                </h2>
+                <h3 class="text-center my-4">
+                    INSTALACIÓN FOTOVOLTAICA DE 2000 W A 220 V,
+                    ADAPTADA PARA LA VENTA DE ENERGÍA
+                    AHORRO ENERGÉTICO DE <b>220 KWH/MES</b>
+                </h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo officiis, cumque similique
-                    laborum nam, voluptatum harum, repellat aliquid veniam odit asperiores natus magnam corporis ab
-                    deleniti expedita error quia consequatur.</p>
-            </div>
-            <div class="col-12 mt-4 wow fadeIn">
-                <h2 class="text-center mt-4">Servicio 3</h1>
-            </div>
-
-            <div class="col-lg-6 wow fadeInLeft">
-                <div class="embed-responsive embed-responsive-4by3">
-                    <!-- Card image -->
-                    <img class="embed-responsive-item" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
-                        alt="Servicio">
-                </div>
-            </div>
-            <div class="col-lg-6 align-self-center wow fadeInRight">
-                <h2 class="text-center my-4">
-                    Lo que necesitas
-                </h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo officiis, cumque similique
-                    laborum nam, voluptatum harum, repellat aliquid veniam odit asperiores natus magnam corporis ab
-                    deleniti expedita error quia consequatur.</p>
+                <p class="text-center">INCLUYE:</p>
+                <ul>
+                    <li>MICRO INVERSOR ONGRID 2000 W</li>
+                    <li>5 PANELESSOLARES 435 W POLI CRISTALINOS</li>
+                    <li>MEDIDOR BIDIRECCIONAL BIFÁSICO</li>
+                    <li>SOPORTES</li>
+                    <li>SISTEMA DEPROTECCIONES PARA LA INSTALACIÓN Y
+                        SEGURIDAD</li>
+                    <li>CERTIFICADO DE LA NORMATIVA RETIE</li>
+                    <li>ACCESORIOS ELÉCTRICOS</li>
+                    <li>PROCESO DECONEXIÓN CON LA ELECTRIFICADORA PARA LA
+                        VENTA DE ENERGÍA</li>
+                    <li>GARANTÍA DE DOS AÑOS</li>
+                    <li>MANTENIMIENTO GRATUITO PARA EL PRIMER AÑO</li>
+                </ul>
             </div>
         </div>
     </div>
+    </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="contacto">
         <div class="row" style="background: url('https://mdbootstrap.com/img/Photos/Others/img (50).jpg')no-repeat center center;
         background-size: cover;">
 
@@ -264,16 +459,18 @@
                 <h1 class="text-center font-weight-bold">Comunicate con Nosotros</h1>
             </div>
 
-            <div class="col-md-8 col-lg-7 col-10 mx-auto float-none white z-depth-1 py-2 px-2 my-4 wow fadeIn" data-wow-delay="0.8s">
+            <div class="col-md-8 col-lg-7 col-10 mx-auto float-none white z-depth-1 py-2 px-2 my-4 wow fadeIn"
+                data-wow-delay="0.8s" style="border-radius: 70px;">
 
                 <!--Naked Form-->
                 <div class="card-body text-center">
-                    <h2 class="h2-responsive"><strong>O, aún mejor, ¡ven a visitarnos!</strong></h2>
-                    <p class="pb-4">Nos encanta recibir a nuestros clientes, así que ven en cualquier momento durante
-                        las horas de oficina.</p>
+                    <h2 class="h2-responsive"><strong>Necesitas Algo? Tienes Preguntas?</strong></h2>
+                    <p class="pb-4">Nos encanta resolver dudas a nuestros clientes, así que escribenos en cualquier momento </p>
 
                     <!--Body-->
-                    <a href="" class="btn btn-success mb-4"><i class="fab fa-whatsapp"></i> ENvianos Un Mensaje</a>
+                    <a href="https://api.whatsapp.com/send?phone=573144638518&text=EnergySan" target="_blank"
+                        class="btn btn-success mb-4 rounded-pill"><i class="fab fa-whatsapp"></i> ENvianos Un
+                        Mensaje</a>
 
                     <h2 class="h2-responsive"><strong>EnergySan</strong></h2>
 
